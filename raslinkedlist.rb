@@ -1,4 +1,10 @@
 
+# Very basic linked list structure.
+# Hacking around learning Ruby.
+#
+# Notes
+# 1) Enumerables are left to return arrays.  The "sort" override demonstrates converting back to a RasLinkedList
+#
 class RasLinkedList
 	include Enumerable
 	include Comparable
