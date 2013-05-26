@@ -6,6 +6,8 @@
 # 1) Enumerables are left to return arrays.  The "sort" override demonstrates converting back to a RasLinkedList
 #
 class RasLinkedList
+	VERSION = "0.0.0"
+
 	include Enumerable
 	include Comparable
 
